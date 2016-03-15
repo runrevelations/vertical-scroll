@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="javascript/main.js"></script>
+  </head>
+  <body>
+    <div class="top-nav"><img id="menu-button" src="images/menu-icon.svg" alt="menu button"></div>
+    <div class="top-nav-list">
+      <ul id="menu-list" class="menu-list">
+        <li><a href="#about-page">ABOUT</a></li>
+        <li> <a href="#portfolio-page">PORTFOLIO</a></li>
+        <li><a href="#testimonial-page">TESTIMONIALS</a></li>
+        <li> <a href="#contact-page">CONTACT</a></li>
+      </ul>
+    </div>
+    <article id="top-name"> 
+      <p id="p-name">CHRIS ALMEIDA</p>
+      <p id="p-modern">Modern Web Development</p>
+    </article>
+    <div class="main-image" id="about-page"><img sizes="(min-width: 40em) 80vw, 100vw" srcset="images/MACBOOKPRO-min.png 300w, #images/MACBOOKPRO-half.png 600w, #images/MACBOOKPRO-full.png 1200w" alt="Laptop Logo"></div>
+    <div id="portfolio-page" class="portfolio-page"></div>
+    <div id="testimonial-page" class="testimonial-page"></div>
+    <div id="contact-page" class="contact-page"></div>
+  </body>
+</html>

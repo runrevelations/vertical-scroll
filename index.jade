@@ -1,0 +1,33 @@
+doctype html
+html(lang="en")
+  head
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="/styles.css")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js")
+    script(src="/javascript/main.js")
+  body
+    .top-nav
+      img(id="menu-button", src="images/menu-icon.svg", alt="menu button")
+    .top-nav-list
+      ul(class="menu-list", id="menu-list")
+        li
+          a(href="#about-page")
+            | ABOUT
+        li 
+          a(href="#portfolio-page")
+            | PORTFOLIO
+        li
+          a(href="#testimonial-page")
+            | TESTIMONIALS
+        li 
+          a(href="#contact-page")
+            | CONTACT
+    article(id="top-name") 
+      p(id="p-name") CHRIS ALMEIDA
+      p(id="p-modern") Modern Web Development
+    .main-image
+      img(sizes="(min-width: 40em) 80vw, 100vw", srcset="/images/MACBOOKPRO-min.png 300w, /images/MACBOOKPRO-half.png 600w, /images/MACBOOKPRO-full.png 1200w" alt="Laptop Logo")
+    .portfolio-page(id="portfolio-page")
+    .testimonial-page(id="testimonial-page")
+    .contact-page(id="contact-page")
+  
